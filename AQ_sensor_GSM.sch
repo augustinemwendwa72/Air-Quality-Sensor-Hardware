@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -23870,8 +23870,6 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 <part name="H3" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:30300289/1"/>
 <part name="H4" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="MOUNT-PAD-ROUND" device="2.8" package3d_urn="urn:adsk.eagle:package:30300289/1"/>
 <part name="GND61" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="DHT" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="GREEN"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470"/>
@@ -23931,6 +23929,8 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 <part name="RI" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="ORANGE"/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -24139,12 +24139,6 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 <instance part="GND61" gate="1" x="204.724" y="19.05" smashed="yes">
 <attribute name="VALUE" x="202.184" y="16.51" size="1.778" layer="96"/>
 </instance>
-<instance part="P+12" gate="1" x="364.236" y="155.702" smashed="yes" rot="R180">
-<attribute name="VALUE" x="366.776" y="160.782" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="P+13" gate="1" x="333.756" y="152.146" smashed="yes" rot="R180">
-<attribute name="VALUE" x="336.296" y="157.226" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="GND13" gate="1" x="136.398" y="237.998" smashed="yes" rot="R270">
 <attribute name="VALUE" x="133.858" y="240.538" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -24172,6 +24166,12 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 </instance>
 <instance part="GND8" gate="1" x="96.52" y="201.93" smashed="yes">
 <attribute name="VALUE" x="93.98" y="199.39" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V1" gate="G$1" x="333.756" y="151.13" smashed="yes" rot="R180">
+<attribute name="VALUE" x="336.296" y="156.21" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="+3V2" gate="G$1" x="364.236" y="154.432" smashed="yes" rot="R180">
+<attribute name="VALUE" x="366.776" y="159.512" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -24317,17 +24317,6 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 <wire x1="51.816" y1="22.86" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
 <junction x="55.88" y="22.86"/>
 </segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="361.696" y1="166.37" x2="364.236" y2="166.37" width="0.1524" layer="91"/>
-<wire x1="364.236" y1="166.37" x2="364.236" y2="158.242" width="0.1524" layer="91"/>
-<pinref part="P+12" gate="1" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="333.756" y1="161.29" x2="333.756" y2="154.686" width="0.1524" layer="91"/>
-<pinref part="P+13" gate="1" pin="+5V"/>
-</segment>
 </net>
 <net name="+3V3" class="1">
 <segment>
@@ -24350,6 +24339,17 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="22.86" x2="93.98" y2="25.4" width="0.1524" layer="91"/>
 <junction x="93.98" y="25.4"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="361.696" y1="166.37" x2="364.236" y2="166.37" width="0.1524" layer="91"/>
+<wire x1="364.236" y1="166.37" x2="364.236" y2="156.972" width="0.1524" layer="91"/>
+<pinref part="+3V2" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="333.756" y1="161.29" x2="333.756" y2="153.67" width="0.1524" layer="91"/>
+<pinref part="+3V1" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="DHT_OUT" class="0">
