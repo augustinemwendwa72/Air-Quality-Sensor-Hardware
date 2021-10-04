@@ -8579,7 +8579,10 @@ design rules under a new name.</description>
 <via x="29.6" y="1.2" extent="1-16" drill="0.35"/>
 <via x="39.9" y="4.4" extent="1-16" drill="0.35"/>
 <via x="39.9" y="2.8" extent="1-16" drill="0.35"/>
-<wire x1="15.825" y1="8.84" x2="15.825" y2="5.03" width="0" layer="19" extent="1-1"/>
+<via x="15" y="11.5" extent="1-16" drill="0.35"/>
+<via x="16.2" y="11.5" extent="1-16" drill="0.35"/>
+<via x="19.5" y="10.9" extent="1-16" drill="0.35"/>
+<via x="19.5" y="9.6" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="+5V" class="1">
 <contactref element="SV2" pad="1"/>
