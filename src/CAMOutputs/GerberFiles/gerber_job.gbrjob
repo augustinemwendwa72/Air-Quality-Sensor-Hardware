@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2021-09-28T08:32:32Z",
+        "CreationDate": "2021-10-05T08:37:52Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -15,7 +15,7 @@
         "Name": {
             "ProjectId": "AQ_sensor_GSM"
         },
-        "Owner": "Jack Mcleans <jackagwaya@gmail.com>",
+        "Owner": "sensors AFRICA <sensors@codeforafrica.org>",
         "Size": {
             "X": 110,
             "Y": 64

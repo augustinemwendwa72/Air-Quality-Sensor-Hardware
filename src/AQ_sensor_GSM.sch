@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -155,7 +155,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
-<fusionteam huburn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTE" projecturn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTEjMjAyMDAzMTgyNzU5ODExNzY" folderUrn="urn:adsk.wipprod:fs.folder:co.JvkIyPCGSUOTXoHwebdYWw" urn="urn:adsk.wipprod:dm.lineage:lKNtYnu6R0Wf073pCdF1XA"  versionUrn="urn:adsk.wipprod:fs.file:vf.lKNtYnu6R0Wf073pCdF1XA?version=5" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="f7d3d892-1735-423b-440c-40111b257b6f"/>
+<fusionteam huburn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTE" projecturn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTEjMjAyMTEwMDU0NTIxNTU1MjY" folderUrn="urn:adsk.wipprod:fs.folder:co.V4eMQQrZRL-wTqnvGmJ6Nw" urn="urn:adsk.wipprod:dm.lineage:oPbGj42BQ0a8HHDQHNPmBg"  versionUrn="urn:adsk.wipprod:fs.file:vf.oPbGj42BQ0a8HHDQHNPmBg?version=1" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="5f9c7e05-69a6-917d-ed76-c49c2c223d44"/>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
@@ -22002,7 +22002,7 @@ JST PH 2-pin thru-home side entry</description>
 <packageinstance name="5,5-PAD"/>
 </packageinstances>
 </package3d>
-<package3d name="SIP-100-03-32" urn="urn:adsk.eagle:package:30300264/2" type="model" library_version="4">
+<package3d name="SIP-100-03-32" urn="urn:adsk.eagle:package:30300264/3" type="model" library_version="5">
 <description>&lt;b&gt;SIP Header&lt;/b&gt; - 0.1", 32 mil drill</description>
 <packageinstances>
 <packageinstance name="SIP-100-03-32"/>
@@ -22818,7 +22818,7 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 </device>
 </devices>
 </deviceset>
-<deviceset name="F-1X03-" urn="urn:adsk.eagle:component:30300315/2" prefix="J" library_version="4">
+<deviceset name="F-1X03-" urn="urn:adsk.eagle:component:30300315/3" prefix="J" library_version="5">
 <description>&lt;b&gt;FEMALE HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="F1X03" x="0" y="0"/>
@@ -22831,7 +22831,7 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30300264/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30300264/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -23841,7 +23841,7 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="X1" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="53?-08" device="048" package3d_urn="urn:adsk.eagle:package:30300278/2"/>
-<part name="J1" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="F-1X03-" device="SIP-100-32" package3d_urn="urn:adsk.eagle:package:30300264/2"/>
+<part name="J1" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="F-1X03-" device="SIP-100-32" package3d_urn="urn:adsk.eagle:package:30300264/3"/>
 <part name="SV1" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="FE15-1" device="" package3d_urn="urn:adsk.eagle:package:30300273/2"/>
 <part name="SV2" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="FE15-1" device="" package3d_urn="urn:adsk.eagle:package:30300273/2"/>
 <part name="PMS" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="ORANGE"/>
@@ -23935,8 +23935,8 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 <sheets>
 <sheet>
 <plain>
-<text x="294.64" y="15.24" size="1.778" layer="94">sensors.AFRICA MRC</text>
-<text x="345.44" y="10.16" size="1.778" layer="94">LAST UPDATE: 21/5/2020</text>
+<text x="294.64" y="15.24" size="1.778" layer="94">sensors.AFRICA GSM</text>
+<text x="345.44" y="10.16" size="1.778" layer="94">LAST UPDATE: 05/10/2020</text>
 <wire x1="5.08" y1="5.08" x2="111.76" y2="5.08" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="5.08" y1="48.26" x2="5.08" y2="5.08" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="86.36" y1="71.12" x2="5.08" y2="71.12" width="0.1524" layer="94" style="shortdash"/>
@@ -25267,24 +25267,24 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 <approved hash="104,1,63.5,25.4,U3,IN,+5V,,,"/>
 <approved hash="104,1,88.9,25.4,U3,OUT,+3V3,,,"/>
 <approved hash="104,1,88.9,22.86,U3,TAB,+3V3,,,"/>
-<approved hash="104,2,347.98,233.68,U1,VBAT,V_LIPO,,,"/>
-<approved hash="104,2,347.98,228.6,U1,VEXT,2.8V,,,"/>
-<approved hash="202,2,347.98,215.9,U1,MIC1P,,,,"/>
-<approved hash="202,2,347.98,213.36,U1,MIC1N,,,,"/>
-<approved hash="202,2,347.98,205.74,U1,MIC2P,,,,"/>
-<approved hash="202,2,347.98,203.2,U1,MIC2N,,,,"/>
-<approved hash="202,2,347.98,185.42,U1,PCMIN,,,,"/>
-<approved hash="202,2,347.98,137.16,U1,UART_DTR,,,,"/>
-<approved hash="202,2,347.98,132.08,U1,UART_DCD,,,,"/>
-<approved hash="202,2,347.98,127,U1,UART_RTS,,,,"/>
-<approved hash="204,2,347.98,116.84,U1,VBUS,,,,"/>
 <approved hash="202,2,347.98,106.68,U1,ADC,,,,"/>
-<approved hash="104,2,347.98,88.9,U1,VSIM,1.8V,,,"/>
-<approved hash="202,2,347.98,78.74,U1,SIMPRE,,,,"/>
-<approved hash="202,2,347.98,55.88,U1,ISINK1,,,,"/>
 <approved hash="202,2,347.98,53.34,U1,ISINK0,,,,"/>
-<approved hash="104,2,94.234,202.946,IC2,VSS,GND,,,"/>
+<approved hash="202,2,347.98,55.88,U1,ISINK1,,,,"/>
+<approved hash="202,2,347.98,213.36,U1,MIC1N,,,,"/>
+<approved hash="202,2,347.98,215.9,U1,MIC1P,,,,"/>
+<approved hash="202,2,347.98,203.2,U1,MIC2N,,,,"/>
+<approved hash="202,2,347.98,205.74,U1,MIC2P,,,,"/>
+<approved hash="202,2,347.98,185.42,U1,PCMIN,,,,"/>
+<approved hash="202,2,347.98,78.74,U1,SIMPRE,,,,"/>
+<approved hash="202,2,347.98,132.08,U1,UART_DCD,,,,"/>
+<approved hash="202,2,347.98,137.16,U1,UART_DTR,,,,"/>
+<approved hash="202,2,347.98,127,U1,UART_RTS,,,,"/>
+<approved hash="104,2,347.98,233.68,U1,VBAT,V_LIPO,,,"/>
+<approved hash="204,2,347.98,116.84,U1,VBUS,,,,"/>
+<approved hash="104,2,347.98,228.6,U1,VEXT,2.8V,,,"/>
+<approved hash="104,2,347.98,88.9,U1,VSIM,1.8V,,,"/>
 <approved hash="104,2,66.294,213.106,IC2,VDD,+5V,,,"/>
+<approved hash="104,2,94.234,202.946,IC2,VSS,GND,,,"/>
 <approved hash="104,2,288.036,96.266,X4,GND1,GND,,,"/>
 <approved hash="104,2,288.036,91.186,X4,GND2,GND,,,"/>
 <approved hash="104,2,272.796,96.266,X4,GND3,GND,,,"/>
@@ -25292,6 +25292,9 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 <approved hash="104,2,63.5,30.48,U2E,VCC,+5V,,,"/>
 <approved hash="106,1,20.32,22.86,D+,,,,,"/>
 <approved hash="106,1,20.32,20.32,D-,,,,,"/>
+<approved hash="209,2,347.98,58.42,GSM_RST,,,,,"/>
+<approved hash="106,2,347.98,58.42,GSM_RST,,,,,"/>
+<approved hash="106,1,44.45,156.21,GSM_RST_O,,,,,"/>
 <approved hash="113,1,41.8677,165.39,SV1,,,,,"/>
 <approved hash="113,1,19.0077,165.39,SV2,,,,,"/>
 <approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
