@@ -23489,6 +23489,142 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 </deviceset>
 </devicesets>
 </library>
+<library name="Connector" urn="urn:adsk.eagle:library:16378166">
+<description>&lt;b&gt;Pin Headers,Terminal blocks, D-Sub, Backplane, FFC/FPC, Socket</description>
+<packages>
+<package name="1X01" urn="urn:adsk.eagle:footprint:22382/1" library_version="39">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" shape="octagon"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="1X01" urn="urn:adsk.eagle:package:22485/2" type="model" library_version="39">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X01"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="PINHD1" urn="urn:adsk.eagle:symbol:22381/1" library_version="39">
+<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-6.35" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="2.54" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-6.35" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PINHD-1X1" urn="urn:adsk.eagle:component:16378168/4" prefix="JP" library_version="39">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PINHD1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22485/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CATEGORY" value="Headers" constant="no"/>
+<attribute name="DESCRIPTION" value="Header, Straight, 1 Position " constant="no"/>
+<attribute name="MANUFACTURER" value="Generic" constant="no"/>
+<attribute name="MPN" value="Generic" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="Generic" constant="no"/>
+<attribute name="PART_STATUS" value="Active" constant="no"/>
+<attribute name="PITCH" value="0.100&quot; (2.54mm)" constant="no"/>
+<attribute name="ROHS_COMPLIANCE" value="Generic" constant="no"/>
+<attribute name="SERIES" value="Generic" constant="no"/>
+<attribute name="SUB-CATEGORY" value="Headers, Male Pins" constant="no"/>
+<attribute name="TYPE" value="Board to Board or Cable, Unshrouded, Through Hole, Straight" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="KMR621NGLFS">
+<packages>
+<package name="SW_KMR621NGLFS">
+<wire x1="-2.75" y1="-1.65" x2="-2.75" y2="1.65" width="0.05" layer="39"/>
+<wire x1="-2.75" y1="1.65" x2="2.75" y2="1.65" width="0.05" layer="39"/>
+<wire x1="2.75" y1="1.65" x2="2.75" y2="-1.65" width="0.05" layer="39"/>
+<wire x1="2.75" y1="-1.65" x2="-2.75" y2="-1.65" width="0.05" layer="39"/>
+<text x="-2.8" y="1.8" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-2.8" y="-2.6" size="0.8128" layer="27">&gt;VALUE</text>
+<wire x1="-2.1" y1="-1.4" x2="-2.1" y2="1.4" width="0.127" layer="51"/>
+<wire x1="-2.1" y1="1.4" x2="2.1" y2="1.4" width="0.127" layer="51"/>
+<wire x1="2.1" y1="1.4" x2="2.1" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="2.1" y1="-1.4" x2="-2.1" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="-2.1" y1="1.62" x2="2.1" y2="1.62" width="0.127" layer="21"/>
+<wire x1="2.1" y1="-1.62" x2="-2.1" y2="-1.62" width="0.127" layer="21"/>
+<smd name="1_1" x="-2.05" y="0.8" dx="0.9" dy="1" layer="1"/>
+<smd name="1_2" x="2.05" y="0.8" dx="0.9" dy="1" layer="1"/>
+<smd name="2_1" x="-2.05" y="-0.8" dx="0.9" dy="1" layer="1"/>
+<smd name="2_2" x="2.05" y="-0.8" dx="0.9" dy="1" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="KMR621NGLFS">
+<circle x="-2.032" y="0" radius="0.359209375" width="0.254" layer="94"/>
+<circle x="2.032" y="0" radius="0.359209375" width="0.254" layer="94"/>
+<wire x1="1.651" y1="0" x2="-1.778" y2="1.016" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="-5.08" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-7.62" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="KMR621NGLFS" prefix="S">
+<description>Tactile Switches 50mA 32VDC 1.9mmH 2N IP67 &lt;a href="https://pricing.snapeda.com/parts/KMR621NG%20LFS/C%26K/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="KMR621NGLFS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SW_KMR621NGLFS">
+<connects>
+<connect gate="G$1" pin="1" pad="1_1 1_2"/>
+<connect gate="G$1" pin="2" pad="2_1 2_2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" Tactile Switch SPST-NO Top Actuated Surface Mount "/>
+<attribute name="MF" value="C&amp;K"/>
+<attribute name="MP" value="KMR621NG LFS"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search?q=KMR621NG LFS&amp;ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -23535,13 +23671,10 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="DHT" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="GREEN"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470"/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SW1" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="PCM12SMTR" device="" package3d_urn="urn:adsk.eagle:package:30300294/2"/>
-<part name="SW2" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="PCM12SMTR" device="" package3d_urn="urn:adsk.eagle:package:30300294/2"/>
-<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="U1" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="GSM_SIM800L" device="" package3d_urn="urn:adsk.eagle:package:30300265/2"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
@@ -23596,6 +23729,9 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="JP1" library="Connector" library_urn="urn:adsk.eagle:library:16378166" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
+<part name="RESET" library="KMR621NGLFS" deviceset="KMR621NGLFS" device="" override_package3d_urn="urn:adsk.eagle:package:41127407/2" override_package_urn="urn:adsk.eagle:footprint:41127408/1"/>
+<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23748,9 +23884,6 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 <attribute name="DRAWING_NAME" x="344.17" y="15.24" size="2.1844" layer="94"/>
 <attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="GND13" gate="1" x="136.398" y="237.998" smashed="yes" rot="R270">
-<attribute name="VALUE" x="133.858" y="240.538" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="DHT" gate="G$1" x="119.38" y="213.36" smashed="yes">
 <attribute name="NAME" x="122.936" y="208.788" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="125.095" y="208.788" size="1.778" layer="96" rot="R90"/>
@@ -23766,13 +23899,6 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 <attribute name="NAME" x="51.820390625" y="163.825390625" size="1.779540625" layer="95" rot="R180"/>
 <attribute name="VALUE" x="51.91735" y="178.825859375" size="1.778459375" layer="96" rot="R180"/>
 </instance>
-<instance part="SW2" gate="G$1" x="153.924" y="232.918" smashed="yes" rot="R180">
-<attribute name="NAME" x="159.008390625" y="227.579390625" size="1.779540625" layer="95" rot="R180"/>
-<attribute name="VALUE" x="159.10535" y="242.579859375" size="1.778459375" layer="96" rot="R180"/>
-</instance>
-<instance part="GND12" gate="1" x="166.116" y="226.06" smashed="yes">
-<attribute name="VALUE" x="163.576" y="223.52" size="1.778" layer="96"/>
-</instance>
 <instance part="GND8" gate="1" x="96.52" y="201.93" smashed="yes">
 <attribute name="VALUE" x="93.98" y="199.39" size="1.778" layer="96"/>
 </instance>
@@ -23781,6 +23907,13 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 </instance>
 <instance part="+3V2" gate="G$1" x="270.256" y="215.392" smashed="yes" rot="R180">
 <attribute name="VALUE" x="272.796" y="220.472" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="RESET" gate="G$1" x="152.4" y="213.36" smashed="yes">
+<attribute name="NAME" x="147.32" y="216.662" size="1.778" layer="95"/>
+<attribute name="VALUE" x="147.32" y="208.28" size="1.778" layer="96"/>
+</instance>
+<instance part="GND11" gate="1" x="163.576" y="203.2" smashed="yes">
+<attribute name="VALUE" x="161.036" y="200.66" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -23855,20 +23988,15 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 <wire x1="119.38" y1="208.28" x2="119.38" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND13" gate="1" pin="GND"/>
-<pinref part="SW2" gate="G$1" pin="SHIELD"/>
-<wire x1="138.938" y1="237.998" x2="143.764" y2="237.998" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SW2" gate="G$1" pin="1"/>
-<pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="164.084" y1="230.378" x2="166.116" y2="230.378" width="0.1524" layer="91"/>
-<wire x1="166.116" y1="230.378" x2="166.116" y2="228.6" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="PMS" gate="G$1" pin="C"/>
 <wire x1="96.52" y1="208.28" x2="96.52" y2="204.47" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="163.576" y1="205.74" x2="163.576" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="RESET" gate="G$1" pin="2"/>
+<wire x1="163.576" y1="213.36" x2="160.02" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="1">
@@ -24041,9 +24169,9 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 <label x="25.4" y="218.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SW2" gate="G$1" pin="2"/>
-<wire x1="143.764" y1="232.918" x2="135.636" y2="232.918" width="0.1524" layer="91"/>
-<label x="131.826" y="232.918" size="1.778" layer="95"/>
+<pinref part="RESET" gate="G$1" pin="1"/>
+<wire x1="144.78" y1="213.36" x2="134.62" y2="213.36" width="0.1524" layer="91"/>
+<label x="134.62" y="213.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DHT_LED" class="0">
@@ -24337,6 +24465,10 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 </instance>
 <instance part="P+8" gate="1" x="261.112" y="123.19" smashed="yes" rot="R90">
 <attribute name="VALUE" x="266.192" y="120.65" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="JP1" gate="G$1" x="256.54" y="76.2" smashed="yes" rot="R180">
+<attribute name="NAME" x="262.89" y="73.025" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="262.89" y="81.28" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -24644,6 +24776,11 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 <wire x1="280.416" y1="103.378" x2="288.29" y2="103.378" width="0.1524" layer="91"/>
 <label x="280.924" y="104.14" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="259.08" y1="76.2" x2="271.78" y2="76.2" width="0.1524" layer="91"/>
+<label x="266.7" y="76.2" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$10" class="0">
 <segment>
@@ -24906,6 +25043,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 <note version="8.4" severity="warning">
 Since Version 8.4, EAGLE supports properties for SPICE simulation. 
