@@ -24310,7 +24310,7 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 <busses>
 </busses>
 <nets>
-<net name="GND" class="1">
+<net name="GND" class="2">
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="MICRO_USB" gate="G$1" pin="SHIELD"/>
@@ -24917,7 +24917,7 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 <label x="175.26" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GND" class="1">
+<net name="GND" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="347.98" y1="226.06" x2="341.376" y2="226.06" width="0.1524" layer="91"/>
