@@ -155,7 +155,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTE" projecturn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTEjMjAyMzA3MjY2NTg1NDY3MDE" f3durn="urn:adsk.wipprod:dm.lineage:pdxJn_wmTzCEupVfpFtgiA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="7d438960-9fe2-4b66-a7bb-90f9e4accb38" lastsyncedrevisionid="7d438960-9fe2-4b66-a7bb-90f9e4accb38" lastboardhashguid="51a1d031-af29-24ad-8408-afb06ea5ea0f" lastpushedtime="2023-08-04T13:52:07Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTE" projecturn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTEjMjAyMzA3MjY2NTg1NDY3MDE" f3durn="urn:adsk.wipprod:dm.lineage:pdxJn_wmTzCEupVfpFtgiA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="25fd2d46-84c6-4f7d-89e4-b8112f8790da" lastsyncedrevisionid="25fd2d46-84c6-4f7d-89e4-b8112f8790da" lastboardhashguid="231e6e74-77fa-3743-47a5-74625bddfb0b" lastpushedtime="2023-08-14T06:20:19Z" linktopcb3d="true"/>
 <fusionteam huburn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTE" projecturn="a.YnVzaW5lc3M6Y29kZWZvcmFmcmljYTEjMjAyMTEwMDU0NTIxNTU1MjY" folderUrn="urn:adsk.wipprod:fs.folder:co.V4eMQQrZRL-wTqnvGmJ6Nw" urn="urn:adsk.wipprod:dm.lineage:IWwQklixSQOxdVvh3w9Smg"  versionUrn="urn:adsk.wipprod:fs.file:vf.IWwQklixSQOxdVvh3w9Smg?version=3" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="2c5e9229-c9e2-5237-d97d-cb8a5109001e"/>
 <plain>
 <wire x1="0" y1="0" x2="110" y2="0" width="0" layer="20"/>
