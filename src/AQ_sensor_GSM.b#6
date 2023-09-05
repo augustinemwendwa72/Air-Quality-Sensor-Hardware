@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -8065,35 +8065,35 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="4.7" y="35.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="5.205" y="33.735" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="S1" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="SW_KMR621NGLFS" package3d_urn="urn:adsk.eagle:package:30300293/2" value="KMR621NGLFS" x="25.5" y="3" smashed="yes">
-<attribute name="AVAILABILITY" value="Unavailable" x="25.5" y="3" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" Tactile Switch SPST-NO Top Actuated Surface Mount " x="25.5" y="3" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="C&amp;K" x="25.5" y="3" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="KMR621NG LFS" x="25.5" y="3" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="22.7" y="4.8" size="0.8128" layer="25"/>
-<attribute name="PACKAGE" value="None" x="25.5" y="3" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="25.5" y="3" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.4" y="0.3" size="0.8128" layer="27"/>
+<element name="S1" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="SW_KMR621NGLFS" package3d_urn="urn:adsk.eagle:package:30300293/2" value="KMR621NGLFS" x="29.5" y="3" smashed="yes">
+<attribute name="AVAILABILITY" value="Unavailable" x="29.5" y="3" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Tactile Switch SPST-NO Top Actuated Surface Mount " x="29.5" y="3" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="C&amp;K" x="29.5" y="3" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="KMR621NG LFS" x="29.5" y="3" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="26.7" y="4.8" size="0.8128" layer="25"/>
+<attribute name="PACKAGE" value="None" x="29.5" y="3" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="29.5" y="3" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="24.4" y="0.3" size="0.8128" layer="27"/>
 </element>
-<element name="D1" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="ON_SEMI_1N4148WS_0" package3d_urn="urn:adsk.eagle:package:30300267/2" value="ON_SEMI_1N4148WSON_SEMI_1N4148WS_0_0" x="32.2" y="3" smashed="yes" rot="R180">
-<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="32.2" y="3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="https://www.fairchildsemi.com/datasheets/1N/1N4148WS.pdf" x="32.2" y="3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_DESCRIPTION" value="DIODE GEN PURP 75V 150MA SOD323F" x="32.2" y="3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="1N4148WSFSCT-ND" x="32.2" y="3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="IPC_LAND_PATTERN_NAME" value="SOD250125X70-2" x="32.2" y="3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LEAD_FREE" value="yes" x="32.2" y="3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="ON Semi" x="32.2" y="3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT" value="CASE 477AB" x="32.2" y="3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFG_PACKAGE_IDENT_REV" value="" x="32.2" y="3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_DESCRIPTION" value="Diodes - General Purpose, Power, Switching Small Signal Diode" x="32.2" y="3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="512-1N4148WS" x="32.2" y="3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="1N4148WS" x="32.2" y="3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="33.05" y="2.05" size="1" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="SOD-323FL" x="32.2" y="3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PREFIX" value="D" x="32.2" y="3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ROHS" value="yes" x="32.2" y="3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURE_RANGE_HIGH" value="+150°C" x="32.2" y="3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TEMPERATURE_RANGE_LOW" value="" x="32.2" y="3" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="D1" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="ON_SEMI_1N4148WS_0" package3d_urn="urn:adsk.eagle:package:30300267/2" value="ON_SEMI_1N4148WSON_SEMI_1N4148WS_0_0" x="34" y="3.2" smashed="yes" rot="R270">
+<attribute name="CENTROID_NOT_SPECIFIED" value="No" x="34" y="3.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DATASHEET" value="https://www.fairchildsemi.com/datasheets/1N/1N4148WS.pdf" x="34" y="3.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="DIODE GEN PURP 75V 150MA SOD323F" x="34" y="3.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1N4148WSFSCT-ND" x="34" y="3.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="IPC_LAND_PATTERN_NAME" value="SOD250125X70-2" x="34" y="3.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LEAD_FREE" value="yes" x="34" y="3.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="ON Semi" x="34" y="3.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT" value="CASE 477AB" x="34" y="3.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="" x="34" y="3.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_DESCRIPTION" value="Diodes - General Purpose, Power, Switching Small Signal Diode" x="34" y="3.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-1N4148WS" x="34" y="3.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="1N4148WS" x="34" y="3.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="34.95" y="4.05" size="1" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="SOD-323FL" x="34" y="3.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PREFIX" value="D" x="34" y="3.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHS" value="yes" x="34" y="3.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+150°C" x="34" y="3.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="" x="34" y="3.2" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470" x="36.2" y="57.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.635" y="61.135" size="1.27" layer="25" rot="R270"/>
@@ -8227,9 +8227,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="3.19" y="34.26" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="11.02" y="32.96" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="X4" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="SMA_EDGELAUNCH_UFL" package3d_urn="urn:adsk.eagle:package:30300291/2" value="50 Ohms" x="17" y="2.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="-5.785" y="44.38" size="1.016" layer="25" ratio="18" rot="R270"/>
-<attribute name="VALUE" x="24.62" y="7.48" size="0.8128" layer="27" ratio="10" rot="R270"/>
+<element name="X4" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="SMA_EDGELAUNCH_UFL" package3d_urn="urn:adsk.eagle:package:30300291/2" value="50 Ohms" x="21" y="1.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="-1.785" y="43.38" size="1.016" layer="25" ratio="18" rot="R270"/>
+<attribute name="VALUE" x="28.62" y="6.48" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="U2" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" package="TEXAS_INSTRUMENTS_SN74HC125_0" package3d_urn="urn:adsk.eagle:package:30300298/2" value="TEXAS_INSTRUMENTS_SN74HC125TEXAS_INSTRUMENTS_SN74HC125_0_0" x="8" y="10.5" smashed="yes" rot="MR90">
 <attribute name="BITS" value="4" x="8" y="10.5" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -8544,13 +8544,13 @@ design rules under a new name.</description>
 <wire x1="31.16" y1="10.7" x2="28.7" y2="11.9" width="0" layer="19" extent="16-16"/>
 <wire x1="16.7" y1="19.1" x2="20.9" y2="17.9" width="0" layer="19" extent="16-16"/>
 <wire x1="16.7" y1="16.3" x2="16.7" y2="19.1" width="0" layer="19" extent="16-16"/>
-<wire x1="19.54" y1="4.432" x2="22.7" y2="7.8" width="0" layer="19" extent="1-16"/>
-<wire x1="19.54" y1="4.432" x2="19.54" y2="4.432" width="0" layer="19" extent="1-16"/>
-<wire x1="23.45" y1="3.8" x2="19.54" y2="4.432" width="0" layer="19" extent="1-1"/>
-<wire x1="27.55" y1="3.8" x2="23.45" y2="3.8" width="0" layer="19" extent="1-1"/>
-<wire x1="14.46" y1="4.432" x2="18.5" y2="7.8" width="0" layer="19" extent="16-16"/>
-<wire x1="14.46" y1="4.432" x2="14.46" y2="4.432" width="0" layer="19" extent="1-16"/>
-<wire x1="33.2" y1="3" x2="27.55" y2="3.8" width="0" layer="19" extent="1-1"/>
+<wire x1="23.54" y1="3.432" x2="22.7" y2="7.8" width="0" layer="19" extent="1-16"/>
+<wire x1="23.54" y1="3.432" x2="23.54" y2="3.432" width="0" layer="19" extent="1-16"/>
+<wire x1="27.45" y1="3.8" x2="23.54" y2="3.432" width="0" layer="19" extent="1-1"/>
+<wire x1="31.55" y1="3.8" x2="27.45" y2="3.8" width="0" layer="19" extent="1-1"/>
+<wire x1="18.46" y1="3.432" x2="18.5" y2="7.8" width="0" layer="19" extent="16-16"/>
+<wire x1="18.46" y1="3.432" x2="18.46" y2="3.432" width="0" layer="19" extent="1-16"/>
+<wire x1="34" y1="4.2" x2="31.55" y2="3.8" width="0" layer="19" extent="1-1"/>
 <wire x1="11.81" y1="7.875" x2="16.7" y2="16.3" width="0" layer="19" extent="16-16"/>
 <wire x1="6.62" y1="19.98" x2="11.81" y2="7.875" width="0" layer="19" extent="16-16"/>
 <wire x1="8" y1="7.875" x2="11.81" y2="7.875" width="0" layer="19" extent="16-16"/>
@@ -8697,9 +8697,9 @@ design rules under a new name.</description>
 <contactref element="S1" pad="2_2"/>
 <contactref element="S1" pad="2_1"/>
 <contactref element="D1" pad="2"/>
-<wire x1="27.55" y1="2.2" x2="31.2" y2="3" width="0" layer="19" extent="1-1"/>
-<wire x1="23.45" y1="2.2" x2="27.55" y2="2.2" width="0" layer="19" extent="1-1"/>
-<wire x1="18.44" y1="16.3" x2="23.45" y2="2.2" width="0" layer="19" extent="1-16"/>
+<wire x1="31.55" y1="2.2" x2="34" y2="2.2" width="0" layer="19" extent="1-1"/>
+<wire x1="27.45" y1="2.2" x2="31.55" y2="2.2" width="0" layer="19" extent="1-1"/>
+<wire x1="18.44" y1="16.3" x2="27.45" y2="2.2" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="NETSTAT" class="2">
 <contactref element="U1" pad="64"/>
@@ -8750,8 +8750,8 @@ design rules under a new name.</description>
 <contactref element="U1" pad="40"/>
 <contactref element="X4" pad="P"/>
 <contactref element="JP2" pad="1"/>
-<wire x1="17" y1="5.448" x2="19.9" y2="7.8" width="0" layer="19" extent="1-16"/>
-<wire x1="10" y1="5" x2="17" y2="5.448" width="0" layer="19" extent="1-1"/>
+<wire x1="21" y1="4.448" x2="19.9" y2="7.8" width="0" layer="19" extent="1-16"/>
+<wire x1="10" y1="5" x2="21" y2="4.448" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="R6" pad="2"/>

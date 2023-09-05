@@ -25197,6 +25197,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="198.12" y1="167.64" x2="180.34" y2="167.64" width="0.1524" layer="91"/>
 <label x="180.34" y="167.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="S2" gate="G$1" pin="1"/>
+<wire x1="178.308" y1="234.95" x2="165.1" y2="234.95" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="234.95" x2="165.1" y2="236.22" width="0.1524" layer="91"/>
+<label x="160.02" y="236.22" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DHT_LED" class="0">
 <segment>
