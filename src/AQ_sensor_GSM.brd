@@ -12561,69 +12561,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package3d>
 </packages3d>
 </library>
-<library name="ME2108A33P">
-<packages>
-<package name="CONV_ME2108A33P">
-<polygon width="0.01" layer="1">
-<vertex x="-2.75" y="0.5"/>
-<vertex x="-0.95" y="0.5"/>
-<vertex x="-0.35" y="1.1"/>
-<vertex x="1.85" y="1.1"/>
-<vertex x="2.75" y="0.2"/>
-<vertex x="2.75" y="-0.2"/>
-<vertex x="1.85" y="-1.1"/>
-<vertex x="-0.35" y="-1.1"/>
-<vertex x="-0.95" y="-0.5"/>
-<vertex x="-2.75" y="-0.5"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-2.75" y="0.5"/>
-<vertex x="-0.95" y="0.5"/>
-<vertex x="-0.35" y="1.1"/>
-<vertex x="1.85" y="1.1"/>
-<vertex x="2.75" y="0.2"/>
-<vertex x="2.75" y="-0.2"/>
-<vertex x="1.85" y="-1.1"/>
-<vertex x="-0.35" y="-1.1"/>
-<vertex x="-0.95" y="-0.5"/>
-<vertex x="-2.75" y="-0.5"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="-2.82" y="0.57"/>
-<vertex x="-0.985" y="0.57"/>
-<vertex x="-0.385" y="1.17"/>
-<vertex x="1.885" y="1.17"/>
-<vertex x="2.82" y="0.235"/>
-<vertex x="2.82" y="-0.235"/>
-<vertex x="1.885" y="-1.17"/>
-<vertex x="-0.385" y="-1.17"/>
-<vertex x="-0.985" y="-0.57"/>
-<vertex x="-2.82" y="-0.57"/>
-</polygon>
-<rectangle x1="-2.82" y1="0.93" x2="-1.18" y2="2.07" layer="29"/>
-<rectangle x1="-2.82" y1="-2.07" x2="-1.18" y2="-0.93" layer="29"/>
-<wire x1="1.45" y1="2.25" x2="1.45" y2="-2.25" width="0.127" layer="51"/>
-<wire x1="1.45" y1="-2.25" x2="-1.05" y2="-2.25" width="0.127" layer="51"/>
-<wire x1="-1.05" y1="-2.25" x2="-1.05" y2="2.25" width="0.127" layer="51"/>
-<wire x1="-1.05" y1="2.25" x2="1.45" y2="2.25" width="0.127" layer="51"/>
-<wire x1="-1.05" y1="2.25" x2="1.45" y2="2.25" width="0.127" layer="21"/>
-<wire x1="1.45" y1="2.25" x2="1.45" y2="1.42" width="0.127" layer="21"/>
-<wire x1="1.45" y1="-1.42" x2="1.45" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="1.45" y1="-2.25" x2="-1.05" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.05" layer="39"/>
-<wire x1="3" y1="2.5" x2="3" y2="-2.5" width="0.05" layer="39"/>
-<wire x1="3" y1="-2.5" x2="-3" y2="-2.5" width="0.05" layer="39"/>
-<wire x1="-3" y1="-2.5" x2="-3" y2="2.5" width="0.05" layer="39"/>
-<text x="-3.25" y="2.75" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.25" y="-2.75" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<circle x="-3.4" y="1.9" radius="0.1" width="0.2" layer="21"/>
-<circle x="-3.4" y="1.9" radius="0.1" width="0.2" layer="51"/>
-<smd name="1" x="-2" y="1.5" dx="1.5" dy="1" layer="1" stop="no"/>
-<smd name="2" x="-2" y="0" dx="1.4" dy="0.9" layer="1" stop="no" cream="no"/>
-<smd name="3" x="-2" y="-1.5" dx="1.5" dy="1" layer="1" stop="no"/>
-</package>
-</packages>
-</library>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
 <description>&lt;h3&gt;SparkFun Discrete Semiconductors&lt;/h3&gt;
 This library contains diodes, optoisolators, TRIACs, MOSFETs, transistors, etc. 
@@ -12666,32 +12603,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </packageinstances>
 </package3d>
 </packages3d>
-</library>
-<library name="B1047AS-470M_P3">
-<packages>
-<package name="IND_B1047AS-470M=P3">
-<text x="-3.68" y="4.95" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.68" y="-4.95" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<wire x1="-3.8" y1="3.8" x2="3.8" y2="3.8" width="0.127" layer="51"/>
-<wire x1="3.8" y1="3.8" x2="3.8" y2="-3.8" width="0.127" layer="51"/>
-<wire x1="3.8" y1="-3.8" x2="-3.8" y2="-3.8" width="0.127" layer="51"/>
-<wire x1="-3.8" y1="-3.8" x2="-3.8" y2="3.8" width="0.127" layer="51"/>
-<wire x1="-3.8" y1="1.82" x2="-3.8" y2="3.8" width="0.127" layer="21"/>
-<wire x1="-3.8" y1="3.8" x2="3.8" y2="3.8" width="0.127" layer="21"/>
-<wire x1="3.8" y1="3.8" x2="3.8" y2="1.82" width="0.127" layer="21"/>
-<wire x1="-3.8" y1="-1.82" x2="-3.8" y2="-3.8" width="0.127" layer="21"/>
-<wire x1="-3.8" y1="-3.8" x2="3.8" y2="-3.8" width="0.127" layer="21"/>
-<wire x1="3.8" y1="-3.8" x2="3.8" y2="-1.82" width="0.127" layer="21"/>
-<wire x1="-4.45" y1="4.05" x2="4.45" y2="4.05" width="0.05" layer="39"/>
-<wire x1="4.45" y1="4.05" x2="4.45" y2="-4.05" width="0.05" layer="39"/>
-<wire x1="4.45" y1="-4.05" x2="-4.45" y2="-4.05" width="0.05" layer="39"/>
-<wire x1="-4.45" y1="-4.05" x2="-4.45" y2="4.05" width="0.05" layer="39"/>
-<circle x="-4.9" y="0" radius="0.1" width="0.2" layer="21"/>
-<circle x="-4.9" y="0" radius="0.1" width="0.2" layer="51"/>
-<smd name="1" x="-3.2" y="0" dx="2" dy="3" layer="1"/>
-<smd name="2" x="3.2" y="0" dx="2" dy="3" layer="1"/>
-</package>
-</packages>
 </library>
 <library name="noise_monitor" urn="urn:adsk.eagle:library:35677466">
 <description>Generated from &lt;b&gt;noise_monitor.sch&lt;/b&gt;&lt;p&gt;
@@ -13068,6 +12979,58 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 </packageinstances>
 </package3d>
 </packages3d>
+</library>
+<library name="MT3608">
+<packages>
+<package name="SOT95P280X145-6N">
+<wire x1="-0.85" y1="-1.5" x2="-0.85" y2="1.5" width="0.127" layer="51"/>
+<wire x1="-0.85" y1="1.565" x2="0.85" y2="1.565" width="0.127" layer="21"/>
+<wire x1="0.85" y1="1.5" x2="0.85" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="0.85" y1="-1.565" x2="-0.85" y2="-1.565" width="0.127" layer="21"/>
+<wire x1="-0.85" y1="1.5" x2="0.85" y2="1.5" width="0.127" layer="51"/>
+<wire x1="0.85" y1="-1.5" x2="-0.85" y2="-1.5" width="0.127" layer="51"/>
+<circle x="-2.305" y="0.95" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2.305" y="0.95" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-2.105" y1="-1.75" x2="-2.105" y2="1.75" width="0.05" layer="39"/>
+<wire x1="-2.105" y1="1.75" x2="2.105" y2="1.75" width="0.05" layer="39"/>
+<wire x1="2.105" y1="1.75" x2="2.105" y2="-1.75" width="0.05" layer="39"/>
+<wire x1="2.105" y1="-1.75" x2="-2.105" y2="-1.75" width="0.05" layer="39"/>
+<text x="-2" y="2" size="1.778" layer="25">&gt;NAME</text>
+<text x="-2" y="-4" size="1.778" layer="27">&gt;VALUE</text>
+<smd name="1" x="-1.17" y="0.95" dx="1.37" dy="0.59" layer="1" roundness="50"/>
+<smd name="2" x="-1.17" y="0" dx="1.37" dy="0.59" layer="1" roundness="50"/>
+<smd name="3" x="-1.17" y="-0.95" dx="1.37" dy="0.59" layer="1" roundness="50"/>
+<smd name="4" x="1.17" y="-0.95" dx="1.37" dy="0.59" layer="1" roundness="50" rot="R180"/>
+<smd name="5" x="1.17" y="0" dx="1.37" dy="0.59" layer="1" roundness="50" rot="R180"/>
+<smd name="6" x="1.17" y="0.95" dx="1.37" dy="0.59" layer="1" roundness="50" rot="R180"/>
+</package>
+</packages>
+</library>
+<library name="47 uH inductor 12.5X12.5">
+<packages>
+<package name="47UHINDUCTOR12.5X12.5">
+<text x="-6.35" y="7.62" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.35" y="-8.89" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-6.25" y1="6.25" x2="6.25" y2="6.25" width="0.127" layer="51"/>
+<wire x1="6.25" y1="6.25" x2="6.25" y2="-6.25" width="0.127" layer="51"/>
+<wire x1="6.25" y1="-6.25" x2="-6.25" y2="-6.25" width="0.127" layer="51"/>
+<wire x1="-6.25" y1="-6.25" x2="-6.25" y2="6.25" width="0.127" layer="51"/>
+<wire x1="-6.25" y1="2.2" x2="-6.25" y2="6.25" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="6.25" x2="6.25" y2="6.25" width="0.127" layer="21"/>
+<wire x1="6.25" y1="6.25" x2="6.25" y2="2.2" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="-2.2" x2="-6.25" y2="-6.25" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="-6.25" x2="6.25" y2="-6.25" width="0.127" layer="21"/>
+<wire x1="6.25" y1="-6.25" x2="6.25" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="-6.8" y1="6.5" x2="6.8" y2="6.5" width="0.05" layer="39"/>
+<wire x1="6.8" y1="6.5" x2="6.8" y2="-6.5" width="0.05" layer="39"/>
+<wire x1="6.8" y1="-6.5" x2="-6.8" y2="-6.5" width="0.05" layer="39"/>
+<wire x1="-6.8" y1="-6.5" x2="-6.8" y2="6.5" width="0.05" layer="39"/>
+<circle x="-7.57" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="-7.57" y="0" radius="0.1" width="0.2" layer="51"/>
+<smd name="1" x="-5.25" y="0" dx="2.6" dy="3.6" layer="1"/>
+<smd name="2" x="5.25" y="0" dx="2.6" dy="3.6" layer="1"/>
+</package>
+</packages>
 </library>
 </libraries>
 <attributes>
@@ -13685,41 +13648,6 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="Board to Board or Cable, Unshrouded, Through Hole, Straight" x="4" y="18" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="2.73" y="14.825" size="1.27" layer="27"/>
 </element>
-<element name="PS1" library="ME2108A33P" package="CONV_ME2108A33P" value="ME2108A33P" x="25" y="58" smashed="yes" rot="MR90">
-<attribute name="AVAILABILITY" value="Not in stock" x="49" y="49" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/ME2108A33P/Nanjing+Micro+One+Electronics/view-part/?ref=eda" x="49" y="49" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DESCRIPTION" value=" PFM Step-up Step-up Step-up Step-up DC/DC Converter " x="49" y="49" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MF" value="Nanjing Micro One Electronics" x="49" y="49" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MP" value="ME2108A33P" x="49" y="49" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="27.75" y="54.75" size="1.27" layer="26" rot="MR90"/>
-<attribute name="PACKAGE" value="Package " x="49" y="49" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="PRICE" value="None" x="49" y="49" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/ME2108A33P/Nanjing+Micro+One+Electronics/view-part/?ref=snap" x="49" y="49" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="22.25" y="54.75" size="1.27" layer="28" rot="MR90" align="top-left"/>
-</element>
-<element name="D5" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="SMA-DIODE" package3d_urn="urn:adsk.eagle:package:38443/2" value="3A/40V/500mV" x="26" y="49" smashed="yes" rot="MR180">
-<attribute name="NAME" x="26" y="46.349" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-09886" x="17" y="26" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VALUE" x="26" y="50.651" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
-</element>
-<element name="L1" library="B1047AS-470M_P3" package="IND_B1047AS-470M=P3" override_package3d_urn="urn:adsk.eagle:package:41962698/2" override_package_urn="urn:adsk.eagle:footprint:41962699/1" value="B1047AS-470M=P3" x="12" y="29" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="In Stock" x="32" y="20" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/B1047AS-470M=P3/Murata/view-part/?ref=eda" x="32" y="20" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value=" Inductor with Inductance: 47uH Tol. +/-20%, Package: 2929 (7373) " x="32" y="20" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Murata" x="32" y="20" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="B1047AS-470M=P3" x="32" y="20" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="15.68" y="24.05" size="1.27" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="NONSTANDARD " x="32" y="20" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="32" y="20" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1513602&amp;manufacturer=Murata&amp;part_name=B1047AS-470M=P3&amp;search_term=47uh inductor" x="32" y="20" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/B1047AS-470M=P3/Murata/view-part/?ref=snap" x="32" y="20" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="15.68" y="33.95" size="1.27" layer="27" rot="R180" align="top-left"/>
-</element>
-<element name="C5" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="EIA3528" package3d_urn="urn:adsk.eagle:package:41385085/1" value="47uF" x="33" y="56" smashed="yes" rot="MR270">
-<attribute name="NAME" x="33.222" y="60" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-08310" x="25" y="88" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="34.778" y="56" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
-</element>
 <element name="JP1" library="Connector" library_urn="urn:adsk.eagle:library:16378166" package="1X10" package3d_urn="urn:adsk.eagle:package:22406/2" value="PINHD-1X10" x="3" y="34" smashed="yes" rot="R90">
 <attribute name="CATEGORY" value="Headers" x="3" y="34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="Header, Straight, 10 Position " x="3" y="34" size="1.778" layer="27" rot="R90" display="off"/>
@@ -13931,6 +13859,53 @@ design rules under a new name.</description>
 <attribute name="PRICE" value="None" x="-70" y="-91" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-64.08" y="-109.08" size="1.778" layer="27"/>
 </element>
+<element name="U7" library="MT3608" package="SOT95P280X145-6N" value="MT3608" x="-62" y="-115" smashed="yes">
+<attribute name="AVAILABILITY" value="Not in stock" x="-62" y="-115" size="1.778" layer="27" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MT3608/Aerosemi+Technology+Co.%252C+Ltd/view-part/?ref=eda" x="-62" y="-115" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" High Efficiency 1.2MHz 2A Step Up Converter " x="-62" y="-115" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Aerosemi Technology Co., Ltd" x="-62" y="-115" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="MT3608" x="-62" y="-115" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-64" y="-113" size="1.778" layer="25"/>
+<attribute name="PACKAGE" value="Package " x="-62" y="-115" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-62" y="-115" size="1.778" layer="27" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MT3608/Aerosemi+Technology+Co.%252C+Ltd/view-part/?ref=snap" x="-62" y="-115" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-64" y="-119" size="1.778" layer="27"/>
+</element>
+<element name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k" x="-63" y="-123" smashed="yes">
+<attribute name="NAME" x="-63.635" y="-122.365" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="70" x="-63" y="-123" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="-63" y="-123" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-63.635" y="-124.905" size="1.27" layer="27"/>
+</element>
+<element name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="7.5k" x="-63" y="-128" smashed="yes">
+<attribute name="NAME" x="-63.635" y="-127.365" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="70" x="-63" y="-128" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="-63" y="-128" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-63.635" y="-129.905" size="1.27" layer="27"/>
+</element>
+<element name="D6" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="SMA-DIODE" package3d_urn="urn:adsk.eagle:package:38443/2" value="3A/40V/500mV" x="-72" y="-133" smashed="yes">
+<attribute name="NAME" x="-72" y="-131.349" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-09886" x="-72" y="-133" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-72" y="-134.651" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="C14" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="EIA3528" package3d_urn="urn:adsk.eagle:package:41385085/1" value="47uF" x="-72" y="-139" smashed="yes">
+<attribute name="NAME" x="-72" y="-137.222" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-08310" x="-72" y="-139" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-72" y="-140.778" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="L1" library="47 uH inductor 12.5X12.5" package="47UHINDUCTOR12.5X12.5" value="47UHINDUCTOR12.5X12.5" x="-83" y="-132" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-83" y="-132" size="1.778" layer="27" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/%23B953AS-470M=P3/Murata/view-part/?ref=eda" x="-83" y="-132" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Inductor with Inductance: 47uH Tol. +/-20%, Package: 4949 (125125) " x="-83" y="-132" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="-83" y="-132" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="#B953AS-470M=P3" x="-83" y="-132" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-89.35" y="-124.38" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="NONSTANDARD " x="-83" y="-132" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-83" y="-132" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4549730&amp;manufacturer=Murata&amp;part_name=#B953AS-470M=P3&amp;search_term=47uh inductor" x="-83" y="-132" size="1.778" layer="27" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/%23B953AS-470M=P3/Murata/view-part/?ref=snap" x="-83" y="-132" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-89.35" y="-140.89" size="1.27" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND" class="2">
@@ -14006,8 +13981,6 @@ design rules under a new name.</description>
 <contactref element="PMS" pad="C"/>
 <contactref element="U4" pad="15"/>
 <contactref element="GPS" pad="4"/>
-<contactref element="PS1" pad="1"/>
-<contactref element="C5" pad="C"/>
 <contactref element="JP1" pad="10"/>
 <contactref element="U6" pad="3"/>
 <contactref element="U6" pad="29"/>
@@ -14027,6 +14000,12 @@ design rules under a new name.</description>
 <contactref element="R23" pad="1"/>
 <contactref element="POWER1" pad="C"/>
 <contactref element="CN2" pad="2"/>
+<contactref element="U7" pad="2"/>
+<contactref element="R26" pad="1"/>
+<contactref element="C14" pad="C"/>
+<wire x1="-63.85" y1="-123" x2="-73.65" y2="-139" width="0" layer="19" extent="1-1"/>
+<wire x1="-63.17" y1="-115" x2="-63.85" y2="-123" width="0" layer="19" extent="1-1"/>
+<wire x1="-61" y1="-94.7" x2="-63.17" y2="-115" width="0" layer="19" extent="1-1"/>
 <wire x1="-62" y1="-77.25" x2="-61" y2="-94.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-63.85" y1="-64" x2="-62" y2="-77.25" width="0" layer="19" extent="1-1"/>
 <wire x1="-59.73" y1="-57" x2="-63.85" y2="-64" width="0" layer="19" extent="1-1"/>
@@ -14094,31 +14073,29 @@ design rules under a new name.</description>
 <wire x1="35.85" y1="48" x2="39.808" y2="45.702" width="0" layer="19" extent="1-16"/>
 <wire x1="42.65" y1="53.635" x2="39.808" y2="45.702" width="0" layer="19" extent="1-1"/>
 <wire x1="39.35" y1="58.8" x2="42.65" y2="53.635" width="0" layer="19" extent="16-16"/>
-<wire x1="33" y1="57.65" x2="39.35" y2="58.8" width="0" layer="19" extent="16-16"/>
-<wire x1="30.05" y1="56" x2="33" y2="57.65" width="0" layer="19" extent="1-16"/>
-<wire x1="26.5" y1="56" x2="30.05" y2="56" width="0" layer="19" extent="1-16"/>
-<wire x1="26.45" y1="60.135" x2="26.5" y2="56" width="0" layer="19" extent="1-16"/>
-<wire x1="27.15" y1="62.685" x2="26.45" y2="60.135" width="0" layer="19" extent="1-1"/>
-<wire x1="24.55" y1="62.685" x2="27.15" y2="62.685" width="0" layer="19" extent="1-1"/>
-<wire x1="22.15" y1="62.685" x2="24.55" y2="62.685" width="0" layer="19" extent="1-1"/>
-<wire x1="19.55" y1="62.685" x2="22.15" y2="62.685" width="0" layer="19" extent="1-1"/>
-<wire x1="20.25" y1="60.135" x2="19.55" y2="62.685" width="0" layer="19" extent="1-1"/>
-<wire x1="22.05" y1="60.01" x2="20.25" y2="60.135" width="0" layer="19" extent="1-1"/>
-<wire x1="22.7" y1="60.01" x2="22.05" y2="60.01" width="0" layer="19" extent="1-1"/>
-<wire x1="13.83" y1="55.005" x2="20.25" y2="60.135" width="0" layer="19" extent="1-16"/>
-<wire x1="10.5" y1="56.9" x2="13.83" y2="55.005" width="0" layer="19" extent="1-16"/>
-<wire x1="15.8" y1="47.9" x2="13.83" y2="55.005" width="0" layer="19" extent="16-16"/>
-<wire x1="3.21" y1="54.51" x2="10.5" y2="56.9" width="0" layer="19" extent="1-1"/>
-<wire x1="1.65" y1="48.8" x2="3.21" y2="54.51" width="0" layer="19" extent="1-1"/>
-<wire x1="3" y1="45.43" x2="1.65" y2="48.8" width="0" layer="19" extent="1-1"/>
-<wire x1="8.3" y1="41.35" x2="3" y2="45.43" width="0" layer="19" extent="16-16"/>
-<wire x1="12.1" y1="40.4" x2="8.3" y2="41.35" width="0" layer="19" extent="1-16"/>
-<wire x1="15.6" y1="37.575" x2="12.1" y2="40.4" width="0" layer="19" extent="1-16"/>
 <wire x1="27.36" y1="41.5" x2="35.95" y2="43" width="0" layer="19" extent="16-16"/>
 <wire x1="25" y1="41" x2="27.36" y2="41.5" width="0" layer="19" extent="16-16"/>
 <wire x1="14.85" y1="28" x2="23.685" y2="26.35" width="0" layer="19" extent="1-16"/>
 <wire x1="9.8" y1="24.935" x2="14.85" y2="28" width="0" layer="19" extent="16-16"/>
 <wire x1="8.3" y1="31.65" x2="9.8" y2="24.935" width="0" layer="19" extent="16-16"/>
+<wire x1="15.6" y1="37.575" x2="8.3" y2="31.65" width="0" layer="19" extent="16-16"/>
+<wire x1="12.1" y1="40.4" x2="15.6" y2="37.575" width="0" layer="19" extent="1-16"/>
+<wire x1="8.3" y1="41.35" x2="12.1" y2="40.4" width="0" layer="19" extent="1-16"/>
+<wire x1="3" y1="45.43" x2="8.3" y2="41.35" width="0" layer="19" extent="16-16"/>
+<wire x1="1.65" y1="48.8" x2="3" y2="45.43" width="0" layer="19" extent="1-1"/>
+<wire x1="3.21" y1="54.51" x2="1.65" y2="48.8" width="0" layer="19" extent="1-1"/>
+<wire x1="10.5" y1="56.9" x2="3.21" y2="54.51" width="0" layer="19" extent="1-1"/>
+<wire x1="13.83" y1="55.005" x2="10.5" y2="56.9" width="0" layer="19" extent="1-16"/>
+<wire x1="15.8" y1="47.9" x2="13.83" y2="55.005" width="0" layer="19" extent="16-16"/>
+<wire x1="20.25" y1="60.135" x2="13.83" y2="55.005" width="0" layer="19" extent="1-16"/>
+<wire x1="22.05" y1="60.01" x2="20.25" y2="60.135" width="0" layer="19" extent="1-1"/>
+<wire x1="22.7" y1="60.01" x2="22.05" y2="60.01" width="0" layer="19" extent="1-1"/>
+<wire x1="19.55" y1="62.685" x2="20.25" y2="60.135" width="0" layer="19" extent="1-1"/>
+<wire x1="22.15" y1="62.685" x2="19.55" y2="62.685" width="0" layer="19" extent="1-1"/>
+<wire x1="24.55" y1="62.685" x2="22.15" y2="62.685" width="0" layer="19" extent="1-1"/>
+<wire x1="27.15" y1="62.685" x2="24.55" y2="62.685" width="0" layer="19" extent="1-1"/>
+<wire x1="26.45" y1="60.135" x2="27.15" y2="62.685" width="0" layer="19" extent="1-1"/>
+<wire x1="30.05" y1="56" x2="26.45" y2="60.135" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V" class="1">
 <contactref element="R14" pad="2"/>
@@ -14135,8 +14112,6 @@ design rules under a new name.</description>
 <contactref element="C7" pad="2"/>
 <contactref element="R13" pad="1"/>
 <contactref element="R24" pad="2"/>
-<contactref element="R25" pad="2"/>
-<wire x1="-62.15" y1="-69" x2="-62.15" y2="-82" width="0" layer="19" extent="1-1"/>
 <wire x1="8.875" y1="15.81" x2="-62.15" y2="-69" width="0" layer="19" extent="1-16"/>
 <wire x1="3" y1="22.57" x2="8.875" y2="15.81" width="0" layer="19" extent="16-16"/>
 <wire x1="13.15" y1="28" x2="3" y2="22.57" width="0" layer="19" extent="16-16"/>
@@ -14326,25 +14301,27 @@ design rules under a new name.</description>
 <contactref element="CN1" pad="1"/>
 <contactref element="U1" pad="42"/>
 <contactref element="U1" pad="1"/>
-<contactref element="L1" pad="1"/>
 <contactref element="U5" pad="5"/>
 <contactref element="C3" pad="1"/>
-<contactref element="SW1" pad="2"/>
-<contactref element="C1" pad="1"/>
-<contactref element="U3" pad="3"/>
-<wire x1="-55.475" y1="-47" x2="-58.25" y2="-102.25" width="0" layer="19" extent="1-1"/>
+<contactref element="R25" pad="2"/>
+<contactref element="SW1" pad="1"/>
+<contactref element="U7" pad="5"/>
+<contactref element="U7" pad="4"/>
+<contactref element="L1" pad="1"/>
+<wire x1="-60.83" y1="-115.95" x2="-88.25" y2="-132" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.83" y1="-115" x2="-60.83" y2="-115.95" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.25" y1="-102.25" x2="-60.83" y2="-115" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.15" y1="-82" x2="-61.25" y2="-102.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.475" y1="-47" x2="-62.15" y2="-82" width="0" layer="19" extent="1-1"/>
 <wire x1="-41.525" y1="-8.905" x2="-55.475" y2="-47" width="0" layer="19" extent="1-1"/>
 <wire x1="9.8" y1="21.665" x2="-41.525" y2="-8.905" width="0" layer="19" extent="1-16"/>
-<wire x1="15.2" y1="29" x2="9.8" y2="21.665" width="0" layer="19" extent="1-16"/>
-<wire x1="8.3" y1="33.35" x2="15.2" y2="29" width="0" layer="19" extent="1-16"/>
+<wire x1="8.3" y1="33.35" x2="9.8" y2="21.665" width="0" layer="19" extent="16-16"/>
 <wire x1="12.1" y1="45.2" x2="8.3" y2="33.35" width="0" layer="19" extent="1-16"/>
 <wire x1="16.75" y1="47.9" x2="12.1" y2="45.2" width="0" layer="19" extent="1-16"/>
 <wire x1="12.5" y1="56.9" x2="16.75" y2="47.9" width="0" layer="19" extent="1-16"/>
-<wire x1="9.23" y1="55.005" x2="12.5" y2="56.9" width="0" layer="19" extent="1-16"/>
 <wire x1="20" y1="4.1" x2="9.8" y2="21.665" width="0" layer="19" extent="1-16"/>
 <wire x1="21.5" y1="3.7" x2="20" y2="4.1" width="0" layer="19" extent="1-1"/>
-<wire x1="38.35" y1="24.28" x2="15.2" y2="29" width="0" layer="19" extent="1-1"/>
-<wire x1="41.8" y1="41.35" x2="38.35" y2="24.28" width="0" layer="19" extent="1-16"/>
+<wire x1="41.8" y1="41.35" x2="16.75" y2="47.9" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$6">
 <contactref element="CHRG" pad="C"/>
@@ -14465,19 +14442,16 @@ design rules under a new name.</description>
 <contactref element="JP1" pad="8"/>
 <wire x1="34.2" y1="14.2" x2="3" y2="40.35" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1">
-<contactref element="L1" pad="2"/>
-<contactref element="PS1" pad="3"/>
-<contactref element="D5" pad="A"/>
-<wire x1="23.85" y1="49" x2="23.5" y2="56" width="0" layer="19" extent="16-16"/>
-<wire x1="8.8" y1="29" x2="23.85" y2="49" width="0" layer="19" extent="1-16"/>
-</signal>
 <signal name="5V_REG">
-<contactref element="PS1" pad="2"/>
-<contactref element="D5" pad="C"/>
-<contactref element="C5" pad="A"/>
-<wire x1="28.15" y1="49" x2="33" y2="54.35" width="0" layer="19" extent="16-16"/>
-<wire x1="25" y1="56" x2="28.15" y2="49" width="0" layer="19" extent="16-16"/>
+<contactref element="C1" pad="1"/>
+<contactref element="U3" pad="3"/>
+<contactref element="D6" pad="C"/>
+<contactref element="R27" pad="2"/>
+<contactref element="C14" pad="A"/>
+<wire x1="-69.85" y1="-133" x2="-70.35" y2="-139" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.15" y1="-128" x2="-69.85" y2="-133" width="0" layer="19" extent="1-1"/>
+<wire x1="38.35" y1="24.28" x2="-62.15" y2="-128" width="0" layer="19" extent="1-1"/>
+<wire x1="9.23" y1="55.005" x2="38.35" y2="24.28" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="ESP_RX">
 <contactref element="U6" pad="26"/>
@@ -14592,10 +14566,24 @@ design rules under a new name.</description>
 <contactref element="POWER1" pad="A"/>
 <wire x1="-62" y1="-78.75" x2="-63.85" y2="-82" width="0" layer="19" extent="1-1"/>
 </signal>
+<signal name="N$23">
+<contactref element="U7" pad="1"/>
+<contactref element="D6" pad="A"/>
+<contactref element="L1" pad="2"/>
+<wire x1="-77.75" y1="-132" x2="-74.15" y2="-133" width="0" layer="19" extent="1-1"/>
+<wire x1="-63.17" y1="-114.05" x2="-74.15" y2="-133" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$26">
+<contactref element="U7" pad="3"/>
+<contactref element="R27" pad="1"/>
+<contactref element="R26" pad="2"/>
+<wire x1="-62.15" y1="-123" x2="-63.85" y2="-128" width="0" layer="19" extent="1-1"/>
+<wire x1="-63.17" y1="-115.95" x2="-62.15" y2="-123" width="0" layer="19" extent="1-1"/>
+</signal>
 <signal name="N$22">
 <contactref element="CN2" pad="1"/>
-<contactref element="SW1" pad="1"/>
-<wire x1="-59" y1="-94.7" x2="-61.25" y2="-102.25" width="0" layer="19" extent="1-1"/>
+<contactref element="SW1" pad="2"/>
+<wire x1="-59" y1="-94.7" x2="-58.25" y2="-102.25" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

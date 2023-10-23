@@ -25300,7 +25300,7 @@ Diode with low voltage drop</description>
 <part name="JP2" library="Connector" library_urn="urn:adsk.eagle:library:16378166" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="PS1" library="ME2108A33P" deviceset="ME2108A33P" device=""/>
 <part name="D5" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-SCHOTTKY" device="-B340A" package3d_urn="urn:adsk.eagle:package:38443/1" value="3A/40V/500mV"/>
-<part name="L1" library="B1047AS-470M_P3" deviceset="B1047AS-470M=P3" device=""/>
+<part name="L1" library="B1047AS-470M_P3" deviceset="B1047AS-470M=P3" device="" override_package3d_urn="urn:adsk.eagle:package:41962698/2" override_package_urn="urn:adsk.eagle:footprint:41962699/1"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C5" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="47UF-POLAR" device="-EIA3528-10V-10%" package3d_urn="urn:adsk.eagle:package:41385085/1" value="47uF"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
