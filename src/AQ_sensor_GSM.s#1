@@ -23914,111 +23914,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="ME2108A33P">
-<packages>
-<package name="CONV_ME2108A33P">
-<polygon width="0.01" layer="1">
-<vertex x="-2.75" y="0.5"/>
-<vertex x="-0.95" y="0.5"/>
-<vertex x="-0.35" y="1.1"/>
-<vertex x="1.85" y="1.1"/>
-<vertex x="2.75" y="0.2"/>
-<vertex x="2.75" y="-0.2"/>
-<vertex x="1.85" y="-1.1"/>
-<vertex x="-0.35" y="-1.1"/>
-<vertex x="-0.95" y="-0.5"/>
-<vertex x="-2.75" y="-0.5"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-2.75" y="0.5"/>
-<vertex x="-0.95" y="0.5"/>
-<vertex x="-0.35" y="1.1"/>
-<vertex x="1.85" y="1.1"/>
-<vertex x="2.75" y="0.2"/>
-<vertex x="2.75" y="-0.2"/>
-<vertex x="1.85" y="-1.1"/>
-<vertex x="-0.35" y="-1.1"/>
-<vertex x="-0.95" y="-0.5"/>
-<vertex x="-2.75" y="-0.5"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="-2.82" y="0.57"/>
-<vertex x="-0.985" y="0.57"/>
-<vertex x="-0.385" y="1.17"/>
-<vertex x="1.885" y="1.17"/>
-<vertex x="2.82" y="0.235"/>
-<vertex x="2.82" y="-0.235"/>
-<vertex x="1.885" y="-1.17"/>
-<vertex x="-0.385" y="-1.17"/>
-<vertex x="-0.985" y="-0.57"/>
-<vertex x="-2.82" y="-0.57"/>
-</polygon>
-<rectangle x1="-2.82" y1="0.93" x2="-1.18" y2="2.07" layer="29"/>
-<rectangle x1="-2.82" y1="-2.07" x2="-1.18" y2="-0.93" layer="29"/>
-<wire x1="1.45" y1="2.25" x2="1.45" y2="-2.25" width="0.127" layer="51"/>
-<wire x1="1.45" y1="-2.25" x2="-1.05" y2="-2.25" width="0.127" layer="51"/>
-<wire x1="-1.05" y1="-2.25" x2="-1.05" y2="2.25" width="0.127" layer="51"/>
-<wire x1="-1.05" y1="2.25" x2="1.45" y2="2.25" width="0.127" layer="51"/>
-<wire x1="-1.05" y1="2.25" x2="1.45" y2="2.25" width="0.127" layer="21"/>
-<wire x1="1.45" y1="2.25" x2="1.45" y2="1.42" width="0.127" layer="21"/>
-<wire x1="1.45" y1="-1.42" x2="1.45" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="1.45" y1="-2.25" x2="-1.05" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.05" layer="39"/>
-<wire x1="3" y1="2.5" x2="3" y2="-2.5" width="0.05" layer="39"/>
-<wire x1="3" y1="-2.5" x2="-3" y2="-2.5" width="0.05" layer="39"/>
-<wire x1="-3" y1="-2.5" x2="-3" y2="2.5" width="0.05" layer="39"/>
-<text x="-3.25" y="2.75" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.25" y="-2.75" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<circle x="-3.4" y="1.9" radius="0.1" width="0.2" layer="21"/>
-<circle x="-3.4" y="1.9" radius="0.1" width="0.2" layer="51"/>
-<smd name="1" x="-2" y="1.5" dx="1.5" dy="1" layer="1" stop="no"/>
-<smd name="2" x="-2" y="0" dx="1.4" dy="0.9" layer="1" stop="no" cream="no"/>
-<smd name="3" x="-2" y="-1.5" dx="1.5" dy="1" layer="1" stop="no"/>
-</package>
-</packages>
-<symbols>
-<symbol name="ME2108A33P">
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<text x="-7.62" y="5.842" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-5.842" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
-<pin name="VOUT" x="12.7" y="2.54" length="middle" direction="out" rot="R180"/>
-<pin name="VSS" x="12.7" y="-2.54" length="middle" direction="pwr" rot="R180"/>
-<pin name="LX" x="-12.7" y="2.54" length="middle" direction="in"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ME2108A33P" prefix="PS">
-<description> &lt;a href="https://pricing.snapeda.com/parts/ME2108A33P/Nanjing%20Micro%20One%20Electronics/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="ME2108A33P" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CONV_ME2108A33P">
-<connects>
-<connect gate="G$1" pin="LX" pad="3"/>
-<connect gate="G$1" pin="VOUT" pad="2"/>
-<connect gate="G$1" pin="VSS" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Not in stock"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/ME2108A33P/Nanjing+Micro+One+Electronics/view-part/?ref=eda"/>
-<attribute name="DESCRIPTION" value=" PFM Step-up Step-up Step-up Step-up DC/DC Converter "/>
-<attribute name="MF" value="Nanjing Micro One Electronics"/>
-<attribute name="MP" value="ME2108A33P"/>
-<attribute name="PACKAGE" value="Package "/>
-<attribute name="PRICE" value="None"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/ME2108A33P/Nanjing+Micro+One+Electronics/view-part/?ref=snap"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
 <description>&lt;h3&gt;SparkFun Discrete Semiconductors&lt;/h3&gt;
 This library contains diodes, optoisolators, TRIACs, MOSFETs, transistors, etc. 
@@ -24368,75 +24263,6 @@ Diode with low voltage drop</description>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-15217" constant="no"/>
 <attribute name="VALUE" value="1A/15V/220mV" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="B1047AS-470M_P3">
-<packages>
-<package name="IND_B1047AS-470M=P3">
-<text x="-3.68" y="4.95" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.68" y="-4.95" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<wire x1="-3.8" y1="3.8" x2="3.8" y2="3.8" width="0.127" layer="51"/>
-<wire x1="3.8" y1="3.8" x2="3.8" y2="-3.8" width="0.127" layer="51"/>
-<wire x1="3.8" y1="-3.8" x2="-3.8" y2="-3.8" width="0.127" layer="51"/>
-<wire x1="-3.8" y1="-3.8" x2="-3.8" y2="3.8" width="0.127" layer="51"/>
-<wire x1="-3.8" y1="1.82" x2="-3.8" y2="3.8" width="0.127" layer="21"/>
-<wire x1="-3.8" y1="3.8" x2="3.8" y2="3.8" width="0.127" layer="21"/>
-<wire x1="3.8" y1="3.8" x2="3.8" y2="1.82" width="0.127" layer="21"/>
-<wire x1="-3.8" y1="-1.82" x2="-3.8" y2="-3.8" width="0.127" layer="21"/>
-<wire x1="-3.8" y1="-3.8" x2="3.8" y2="-3.8" width="0.127" layer="21"/>
-<wire x1="3.8" y1="-3.8" x2="3.8" y2="-1.82" width="0.127" layer="21"/>
-<wire x1="-4.45" y1="4.05" x2="4.45" y2="4.05" width="0.05" layer="39"/>
-<wire x1="4.45" y1="4.05" x2="4.45" y2="-4.05" width="0.05" layer="39"/>
-<wire x1="4.45" y1="-4.05" x2="-4.45" y2="-4.05" width="0.05" layer="39"/>
-<wire x1="-4.45" y1="-4.05" x2="-4.45" y2="4.05" width="0.05" layer="39"/>
-<circle x="-4.9" y="0" radius="0.1" width="0.2" layer="21"/>
-<circle x="-4.9" y="0" radius="0.1" width="0.2" layer="51"/>
-<smd name="1" x="-3.2" y="0" dx="2" dy="3" layer="1"/>
-<smd name="2" x="3.2" y="0" dx="2" dy="3" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="B1047AS-470M=P3">
-<wire x1="-5.08" y1="0" x2="-7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
-<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
-<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
-<pin name="1" x="-12.7" y="0" visible="off" length="middle" direction="pas"/>
-<pin name="2" x="12.7" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="B1047AS-470M=P3" prefix="L">
-<description>Inductor Power Shielded Wirewound 220uH 20% 100KHz Ferrite 470mA 1.1Ohm DCR 2929 T/R &lt;a href="https://pricing.snapeda.com/parts/B1047AS-470M%3DP3/Murata/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="B1047AS-470M=P3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="IND_B1047AS-470M=P3">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/B1047AS-470M=P3/Murata/view-part/?ref=eda"/>
-<attribute name="DESCRIPTION" value=" Inductor with Inductance: 47uH Tol. +/-20%, Package: 2929 (7373) "/>
-<attribute name="MF" value="Murata"/>
-<attribute name="MP" value="B1047AS-470M=P3"/>
-<attribute name="PACKAGE" value="NONSTANDARD "/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1513602&amp;manufacturer=Murata&amp;part_name=B1047AS-470M=P3&amp;search_term=47uh inductor"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/B1047AS-470M=P3/Murata/view-part/?ref=snap"/>
 </technology>
 </technologies>
 </device>
@@ -25051,6 +24877,147 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 </deviceset>
 </devicesets>
 </library>
+<library name="MT3608">
+<packages>
+<package name="SOT95P280X145-6N">
+<wire x1="-0.85" y1="-1.5" x2="-0.85" y2="1.5" width="0.127" layer="51"/>
+<wire x1="-0.85" y1="1.565" x2="0.85" y2="1.565" width="0.127" layer="21"/>
+<wire x1="0.85" y1="1.5" x2="0.85" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="0.85" y1="-1.565" x2="-0.85" y2="-1.565" width="0.127" layer="21"/>
+<wire x1="-0.85" y1="1.5" x2="0.85" y2="1.5" width="0.127" layer="51"/>
+<wire x1="0.85" y1="-1.5" x2="-0.85" y2="-1.5" width="0.127" layer="51"/>
+<circle x="-2.305" y="0.95" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2.305" y="0.95" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-2.105" y1="-1.75" x2="-2.105" y2="1.75" width="0.05" layer="39"/>
+<wire x1="-2.105" y1="1.75" x2="2.105" y2="1.75" width="0.05" layer="39"/>
+<wire x1="2.105" y1="1.75" x2="2.105" y2="-1.75" width="0.05" layer="39"/>
+<wire x1="2.105" y1="-1.75" x2="-2.105" y2="-1.75" width="0.05" layer="39"/>
+<text x="-2" y="2" size="1.778" layer="25">&gt;NAME</text>
+<text x="-2" y="-4" size="1.778" layer="27">&gt;VALUE</text>
+<smd name="1" x="-1.17" y="0.95" dx="1.37" dy="0.59" layer="1" roundness="50"/>
+<smd name="2" x="-1.17" y="0" dx="1.37" dy="0.59" layer="1" roundness="50"/>
+<smd name="3" x="-1.17" y="-0.95" dx="1.37" dy="0.59" layer="1" roundness="50"/>
+<smd name="4" x="1.17" y="-0.95" dx="1.37" dy="0.59" layer="1" roundness="50" rot="R180"/>
+<smd name="5" x="1.17" y="0" dx="1.37" dy="0.59" layer="1" roundness="50" rot="R180"/>
+<smd name="6" x="1.17" y="0.95" dx="1.37" dy="0.59" layer="1" roundness="50" rot="R180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MT3608">
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.1524" layer="94"/>
+<text x="-10.16" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="SW" x="15.24" y="5.08" length="middle" direction="out" rot="R180"/>
+<pin name="GND" x="15.24" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="FB" x="15.24" y="2.54" length="middle" direction="in" rot="R180"/>
+<pin name="EN" x="-15.24" y="0" length="middle" direction="in"/>
+<pin name="IN" x="-15.24" y="5.08" length="middle" direction="in"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MT3608" prefix="U">
+<description>High Efficiency 1.2MHz 2A Step Up Converter &lt;a href="https://pricing.snapeda.com/parts/MT3608/Aerosemi%20Technology%20Co.%2C%20Ltd/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MT3608" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P280X145-6N">
+<connects>
+<connect gate="G$1" pin="EN" pad="4"/>
+<connect gate="G$1" pin="FB" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="5"/>
+<connect gate="G$1" pin="SW" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Not in stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/MT3608/Aerosemi+Technology+Co.%252C+Ltd/view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" High Efficiency 1.2MHz 2A Step Up Converter "/>
+<attribute name="MF" value="Aerosemi Technology Co., Ltd"/>
+<attribute name="MP" value="MT3608"/>
+<attribute name="PACKAGE" value="Package "/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/MT3608/Aerosemi+Technology+Co.%252C+Ltd/view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="47 uH inductor 12.5X12.5">
+<packages>
+<package name="47UHINDUCTOR12.5X12.5">
+<text x="-6.35" y="7.62" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.35" y="-8.89" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-6.25" y1="6.25" x2="6.25" y2="6.25" width="0.127" layer="51"/>
+<wire x1="6.25" y1="6.25" x2="6.25" y2="-6.25" width="0.127" layer="51"/>
+<wire x1="6.25" y1="-6.25" x2="-6.25" y2="-6.25" width="0.127" layer="51"/>
+<wire x1="-6.25" y1="-6.25" x2="-6.25" y2="6.25" width="0.127" layer="51"/>
+<wire x1="-6.25" y1="2.2" x2="-6.25" y2="6.25" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="6.25" x2="6.25" y2="6.25" width="0.127" layer="21"/>
+<wire x1="6.25" y1="6.25" x2="6.25" y2="2.2" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="-2.2" x2="-6.25" y2="-6.25" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="-6.25" x2="6.25" y2="-6.25" width="0.127" layer="21"/>
+<wire x1="6.25" y1="-6.25" x2="6.25" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="-6.8" y1="6.5" x2="6.8" y2="6.5" width="0.05" layer="39"/>
+<wire x1="6.8" y1="6.5" x2="6.8" y2="-6.5" width="0.05" layer="39"/>
+<wire x1="6.8" y1="-6.5" x2="-6.8" y2="-6.5" width="0.05" layer="39"/>
+<wire x1="-6.8" y1="-6.5" x2="-6.8" y2="6.5" width="0.05" layer="39"/>
+<circle x="-7.57" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="-7.57" y="0" radius="0.1" width="0.2" layer="51"/>
+<smd name="1" x="-5.25" y="0" dx="2.6" dy="3.6" layer="1"/>
+<smd name="2" x="5.25" y="0" dx="2.6" dy="3.6" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="47UHINDUCTOR12.5X12.5">
+<wire x1="-5.08" y1="0" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<pin name="1" x="-12.7" y="0" visible="off" length="middle" direction="pas"/>
+<pin name="2" x="12.7" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="47UHINDUCTOR12.5X12.5" prefix="L">
+<description>Inductor Power Shielded Wirewound 3.9uH 30% 100KHz Ferrite 6A 0.014Ohm DCR 4949 T/R &lt;a href="https://pricing.snapeda.com/parts/%23B953AS-470M%3DP3/Murata/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="47UHINDUCTOR12.5X12.5" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="47UHINDUCTOR12.5X12.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/%23B953AS-470M=P3/Murata/view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" Inductor with Inductance: 47uH Tol. +/-20%, Package: 4949 (125125) "/>
+<attribute name="MF" value="Murata"/>
+<attribute name="MP" value="#B953AS-470M=P3"/>
+<attribute name="PACKAGE" value="NONSTANDARD "/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4549730&amp;manufacturer=Murata&amp;part_name=#B953AS-470M=P3&amp;search_term=47uh inductor"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/%23B953AS-470M=P3/Murata/view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -25159,12 +25126,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP2" library="Connector" library_urn="urn:adsk.eagle:library:16378166" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="PS1" library="ME2108A33P" deviceset="ME2108A33P" device=""/>
-<part name="D5" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-SCHOTTKY" device="-B340A" package3d_urn="urn:adsk.eagle:package:38443/2" value="3A/40V/500mV"/>
-<part name="L1" library="B1047AS-470M_P3" deviceset="B1047AS-470M=P3" device="" override_package3d_urn="urn:adsk.eagle:package:41962698/2" override_package_urn="urn:adsk.eagle:footprint:41962699/1"/>
-<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C5" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="47UF-POLAR" device="-EIA3528-10V-10%" package3d_urn="urn:adsk.eagle:package:41385085/1" value="47uF"/>
-<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP1" library="Connector" library_urn="urn:adsk.eagle:library:16378166" deviceset="PINHD-1X10" device="" package3d_urn="urn:adsk.eagle:package:22406/2"/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -25215,11 +25176,17 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0.4R"/>
 <part name="POWER1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3" value="RED"/>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1K"/>
-<part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CN2" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="JST_2PIN" device="-SMT-RA" package3d_urn="urn:adsk.eagle:package:30300271/2"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SW1" library="AQ_sensor_GSM" library_urn="urn:adsk.eagle:library:30300195" deviceset="PCM12SMTR" device="" package3d_urn="urn:adsk.eagle:package:30300294/2"/>
+<part name="U7" library="MT3608" deviceset="MT3608" device=""/>
+<part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
+<part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="7.5k"/>
+<part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="D6" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-SCHOTTKY" device="-B340A" package3d_urn="urn:adsk.eagle:package:38443/2" value="3A/40V/500mV"/>
+<part name="C14" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="47UF-POLAR" device="-EIA3528-10V-10%" package3d_urn="urn:adsk.eagle:package:41385085/1" value="47uF"/>
+<part name="L1" library="47 uH inductor 12.5X12.5" deviceset="47UHINDUCTOR12.5X12.5" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25411,28 +25378,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <instance part="P+2" gate="1" x="39.37" y="165.1" smashed="yes" rot="R270">
 <attribute name="VALUE" x="34.29" y="167.64" size="1.778" layer="96"/>
 </instance>
-<instance part="PS1" gate="G$1" x="63.5" y="101.6" smashed="yes">
-<attribute name="NAME" x="55.88" y="107.442" size="1.778" layer="95"/>
-<attribute name="VALUE" x="55.88" y="95.758" size="1.778" layer="96" align="top-left"/>
-</instance>
-<instance part="D5" gate="G$1" x="63.5" y="114.3" smashed="yes">
-<attribute name="NAME" x="60.96" y="116.332" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="60.96" y="112.268" size="1.778" layer="96" font="vector" align="top-left"/>
-</instance>
-<instance part="L1" gate="G$1" x="35.56" y="104.14" smashed="yes">
-<attribute name="NAME" x="25.4" y="111.76" size="1.778" layer="95"/>
-<attribute name="VALUE" x="25.4" y="109.22" size="1.778" layer="96"/>
-</instance>
-<instance part="GND10" gate="1" x="79.756" y="88.9" smashed="yes">
-<attribute name="VALUE" x="77.216" y="86.36" size="1.778" layer="96"/>
-</instance>
-<instance part="C5" gate="G$1" x="88.9" y="101.6" smashed="yes">
-<attribute name="NAME" x="89.916" y="102.235" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="89.916" y="97.409" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="GND12" gate="1" x="89.916" y="88.9" smashed="yes">
-<attribute name="VALUE" x="87.376" y="86.36" size="1.778" layer="96"/>
-</instance>
 <instance part="JP1" gate="A" x="165.1" y="93.98" smashed="yes">
 <attribute name="NAME" x="158.75" y="107.315" size="1.778" layer="95"/>
 <attribute name="VALUE" x="158.75" y="76.2" size="1.778" layer="96"/>
@@ -25612,22 +25557,46 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="NAME" x="68.58" y="173.7614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="68.58" y="178.562" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+9" gate="1" x="52.07" y="176.53" smashed="yes" rot="R90">
-<attribute name="VALUE" x="57.15" y="173.99" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="GND40" gate="1" x="90.17" y="175.26" smashed="yes" rot="R90">
 <attribute name="VALUE" x="92.71" y="172.72" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="CN2" gate="G$1" x="82.296" y="57.912" smashed="yes">
-<attribute name="NAME" x="75.946" y="63.627" size="1.778" layer="95"/>
-<attribute name="VALUE" x="75.946" y="52.832" size="1.778" layer="96"/>
+<instance part="CN2" gate="G$1" x="178.816" y="27.432" smashed="yes">
+<attribute name="NAME" x="172.466" y="33.147" size="1.778" layer="95"/>
+<attribute name="VALUE" x="172.466" y="22.352" size="1.778" layer="96"/>
 </instance>
-<instance part="GND30" gate="1" x="68.072" y="61.214" smashed="yes" rot="R270">
-<attribute name="VALUE" x="65.532" y="63.754" size="1.778" layer="96" rot="R270"/>
+<instance part="GND30" gate="1" x="164.592" y="30.734" smashed="yes" rot="R270">
+<attribute name="VALUE" x="162.052" y="33.274" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="SW1" gate="G$1" x="49.276" y="59.944" smashed="yes" rot="R180">
-<attribute name="NAME" x="54.360390625" y="54.605390625" size="1.779540625" layer="95" rot="R180"/>
-<attribute name="VALUE" x="54.45735" y="69.605859375" size="1.778459375" layer="96" rot="R180"/>
+<instance part="SW1" gate="G$1" x="138.176" y="26.924" smashed="yes">
+<attribute name="NAME" x="133.091609375" y="32.262609375" size="1.779540625" layer="95"/>
+<attribute name="VALUE" x="132.99465" y="17.262140625" size="1.778459375" layer="96"/>
+</instance>
+<instance part="U7" gate="G$1" x="48.26" y="86.36" smashed="yes">
+<attribute name="NAME" x="38.1" y="96.52" size="1.778" layer="95"/>
+<attribute name="VALUE" x="38.1" y="73.66" size="1.778" layer="96"/>
+</instance>
+<instance part="R26" gate="G$1" x="78.74" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="77.2414" y="77.47" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="82.042" y="77.47" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R27" gate="G$1" x="78.74" y="93.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="77.2414" y="90.17" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="82.042" y="90.17" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND41" gate="1" x="77.216" y="66.04" smashed="yes">
+<attribute name="VALUE" x="74.676" y="63.5" size="1.778" layer="96"/>
+</instance>
+<instance part="D6" gate="G$1" x="71.12" y="106.68" smashed="yes">
+<attribute name="NAME" x="68.58" y="108.712" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="68.58" y="104.648" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="C14" gate="G$1" x="88.9" y="88.9" smashed="yes">
+<attribute name="NAME" x="89.916" y="89.535" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="89.916" y="84.709" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="L1" gate="G$1" x="45.72" y="106.68" smashed="yes">
+<attribute name="NAME" x="35.56" y="114.3" size="1.778" layer="95"/>
+<attribute name="VALUE" x="35.56" y="111.76" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -25703,18 +25672,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="312.42" y1="175.26" x2="293.116" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 <wire x1="293.116" y1="175.26" x2="293.116" y2="172.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="PS1" gate="G$1" pin="VSS"/>
-<pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="76.2" y1="99.06" x2="79.756" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="79.756" y1="99.06" x2="79.756" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND12" gate="1" pin="GND"/>
-<pinref part="C5" gate="G$1" pin="-"/>
-<wire x1="89.916" y1="91.44" x2="89.916" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="89.916" y1="96.52" x2="88.9" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="10"/>
@@ -25802,8 +25759,21 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <segment>
 <pinref part="GND30" gate="1" pin="GND"/>
 <pinref part="CN2" gate="G$1" pin="1"/>
-<wire x1="70.612" y1="61.214" x2="70.612" y2="60.452" width="0.1524" layer="91"/>
-<wire x1="70.612" y1="60.452" x2="79.756" y2="60.452" width="0.1524" layer="91"/>
+<wire x1="167.132" y1="30.734" x2="167.132" y2="29.972" width="0.1524" layer="91"/>
+<wire x1="167.132" y1="29.972" x2="176.276" y2="29.972" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="GND"/>
+<pinref part="R26" gate="G$1" pin="1"/>
+<wire x1="63.5" y1="81.28" x2="63.5" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="76.2" x2="77.216" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="GND41" gate="1" pin="GND"/>
+<wire x1="77.216" y1="76.2" x2="78.74" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="77.216" y1="68.58" x2="77.216" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="-"/>
+<wire x1="88.9" y1="83.82" x2="88.9" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="68.58" x2="77.216" y2="68.58" width="0.1524" layer="91"/>
+<junction x="77.216" y="68.58"/>
 </segment>
 </net>
 <net name="+5V" class="1">
@@ -25862,12 +25832,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="85.344" y1="216.662" x2="85.598" y2="216.662" width="0.1524" layer="91"/>
 <wire x1="85.598" y1="216.662" x2="85.598" y2="211.582" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="P+9" gate="1" pin="+5V"/>
-<wire x1="54.61" y1="176.53" x2="54.61" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="R25" gate="G$1" pin="2"/>
-<wire x1="59.69" y1="175.26" x2="54.61" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="1">
@@ -26195,11 +26159,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 </net>
 <net name="V_LIPO" class="0">
 <segment>
-<pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="104.14" x2="15.24" y2="104.14" width="0.1524" layer="91"/>
-<label x="12.7" y="104.14" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U5" gate="G$1" pin="BAT"/>
 <wire x1="60.96" y1="231.14" x2="68.58" y2="231.14" width="0.1524" layer="91"/>
 <label x="76.2" y="231.14" size="1.778" layer="95"/>
@@ -26210,14 +26169,34 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <label x="139.7" y="246.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="68.58" y1="57.912" x2="68.58" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="27.432" x2="165.1" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SW1" gate="G$1" pin="2"/>
-<wire x1="39.116" y1="59.944" x2="39.116" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="39.116" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
-<label x="17.78" y="63.5" size="1.778" layer="95"/>
+<pinref part="R25" gate="G$1" pin="2"/>
+<wire x1="59.69" y1="175.26" x2="45.72" y2="175.26" width="0.1524" layer="91"/>
+<label x="45.72" y="175.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SW1" gate="G$1" pin="1"/>
+<wire x1="128.016" y1="29.464" x2="109.22" y2="29.464" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="29.464" x2="109.22" y2="27.94" width="0.1524" layer="91"/>
+<label x="111.76" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="IN"/>
+<wire x1="30.48" y1="91.44" x2="33.02" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="EN"/>
+<wire x1="33.02" y1="86.36" x2="30.48" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="86.36" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="L1" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="106.68" x2="15.24" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="91.44" x2="33.02" y2="106.68" width="0.1524" layer="91"/>
+<junction x="33.02" y="91.44"/>
+<junction x="33.02" y="106.68"/>
+<label x="15.24" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="5V_REG" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="162.56" x2="96.52" y2="162.56" width="0.1524" layer="91"/>
@@ -26229,32 +26208,18 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <junction x="101.6" y="165.1"/>
 <label x="81.28" y="162.56" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="N$1" class="0">
 <segment>
-<pinref part="L1" gate="G$1" pin="2"/>
-<pinref part="PS1" gate="G$1" pin="LX"/>
-<wire x1="48.26" y1="104.14" x2="50.8" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="D5" gate="G$1" pin="A"/>
-<wire x1="60.96" y1="114.3" x2="50.8" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="114.3" x2="50.8" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="5V_REG" class="0">
-<segment>
-<pinref part="PS1" gate="G$1" pin="VOUT"/>
-<wire x1="76.2" y1="104.14" x2="81.28" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="104.14" x2="81.28" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="D5" gate="G$1" pin="C"/>
-<wire x1="81.28" y1="109.22" x2="81.28" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="114.3" x2="66.04" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="+"/>
-<wire x1="88.9" y1="104.14" x2="88.9" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="109.22" x2="81.28" y2="109.22" width="0.1524" layer="91"/>
-<junction x="81.28" y="109.22"/>
-<wire x1="81.28" y1="114.3" x2="93.98" y2="114.3" width="0.1524" layer="91"/>
-<junction x="81.28" y="114.3"/>
-<label x="93.98" y="114.3" size="1.778" layer="95"/>
+<pinref part="D6" gate="G$1" pin="C"/>
+<wire x1="73.66" y1="106.68" x2="78.74" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="R27" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="106.68" x2="78.74" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="106.68" x2="88.9" y2="106.68" width="0.1524" layer="91"/>
+<junction x="73.66" y="106.68"/>
+<pinref part="C14" gate="G$1" pin="+"/>
+<wire x1="88.9" y1="106.68" x2="99.06" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="91.44" x2="88.9" y2="106.68" width="0.1524" layer="91"/>
+<junction x="88.9" y="106.68"/>
+<label x="93.98" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ESP_RX" class="0">
@@ -26489,12 +26454,39 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="69.85" y1="175.26" x2="72.39" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="SW"/>
+<wire x1="63.5" y1="91.44" x2="63.5" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="D6" gate="G$1" pin="A"/>
+<wire x1="68.58" y1="106.68" x2="63.5" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="L1" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="106.68" x2="63.5" y2="106.68" width="0.1524" layer="91"/>
+<junction x="63.5" y="106.68"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="FB"/>
+<pinref part="R27" gate="G$1" pin="1"/>
+<wire x1="63.5" y1="88.9" x2="78.74" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="R26" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="86.36" x2="78.74" y2="88.9" width="0.1524" layer="91"/>
+<junction x="78.74" y="88.9"/>
+</segment>
+</net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="CN2" gate="G$1" pin="2"/>
-<pinref part="SW1" gate="G$1" pin="1"/>
-<wire x1="79.756" y1="57.912" x2="59.436" y2="57.912" width="0.1524" layer="91"/>
-<wire x1="59.436" y1="57.912" x2="59.436" y2="57.404" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="G$1" pin="2"/>
+<wire x1="176.276" y1="27.432" x2="148.336" y2="27.432" width="0.1524" layer="91"/>
+<wire x1="148.336" y1="27.432" x2="148.336" y2="26.924" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<wire x1="53.34" y1="137.16" x2="53.34" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="134.62" x2="55.88" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
